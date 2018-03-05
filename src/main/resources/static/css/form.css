@@ -1,0 +1,51 @@
+.navbar-inverse {
+    background-color: #673ab7;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon {
+    left: 0px;
+    color: white;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+    background-color: #8b64ce;
+
+    border: none;
+}
+
+.left-addon input:focus {
+    color: black;
+    background-color: white;
+}
+
+input.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
+div > .container-fluid {
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
