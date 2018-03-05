@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.stream.Stream;
 
-public interface FormRepository extends CrudRepository<Form,Long>{
+public interface FormRepository extends CrudRepository<Form, Long> {
     @Query("select f from Form f where f.name = :name")
     Stream<Form> findByNameReturnStream(@Param("name") String name);
 }
